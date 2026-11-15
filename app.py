@@ -14,6 +14,8 @@ CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 CORS(app, resources={
     r"/submit": {
         "origins": [
+            "https://join-djembo.com",
+            "https://www.join-djembo.com",
             "https://evamyself123-art.github.io"
         ]
     }
